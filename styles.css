@@ -130,4 +130,12 @@ textarea:focus{
     color: white;
 }
 
+@media only screen and (max-width:700px){ 
+    
+    .main-img img{
+        height: 15rem;
+        width: 18rem;
+    }
+}
+
 
