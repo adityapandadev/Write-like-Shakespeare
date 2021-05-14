@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Texturina&display=swap');
+
+:root{
+    --background-color : #364547;
+    --Secondary-background : #2f5d62;
+    --text-color : #ffe268;
+    --button-bg : #ffb037;
+}
+
+body{
+    background-color: var(--background-color);
+    margin: 0px;
+    font-family: "Playfair Display","Serif";
+}
+
+.header{
+    text-align: center;
+    font-family: "Texturina","Serif";
+    color: var(--text-color);
+    background-color: var(--Secondary-background);
+    padding: 1rem;
+}
+
+.main-img{
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-img img{
+    height: 15rem;
+    width: 25rem;
+}
+
+textarea{
+    display: block;
+    width: 55%;
+    height: 20vh;
+    margin: auto;
+    padding: 1rem;
+    background-color:#dfc769;
+    border: 3px solid var(--button-bg);
+    border-radius: .8rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Playfair Display","Serif";
+    letter-spacing: 1.5px;
+}
+
+textarea:focus{
+    outline: 0px;
+}
+
+#output-text{
+    display: block;
+    width: 55%;
+    height: 20vh;
+    margin: auto;
+    padding: 1rem;
+    border: 3px solid var(--button-bg);
+    background-color:#dfc769;
+    border-radius: .8rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    
+    
+}
+
+#btn-translate{
+    margin: 2rem;
+    text-align: center;
+    padding: .7rem;
+    border-radius: 1rem;
+    border: 3px solid var(--text-color);
+    background-color: var(--Secondary-background);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+
+}
+
+#btn-translate:hover{
+    background-color:var(--text-color);
+    color:var(--background-color);
+}
+
+#btn-translate:focus{
+    outline: 0px;
+}
+
+.container-center{
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.container-center h3{
+    color:var(--text-color);
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem 0rem;
+    font-family: "Texturina","Serif";
+}
+
+
+.footer{
+
+    padding: 1rem;
+    background-color:var(--Secondary-background);
+    margin-top: 1rem;
+    
+}
+
+.footer div{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color:var(--text-color);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+
